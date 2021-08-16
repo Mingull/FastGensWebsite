@@ -1,2 +1,2 @@
 # FastGens website 
-Made By Mingull
+Redesigned By Mingull
