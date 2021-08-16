@@ -1,0 +1,64 @@
+html {
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.navbar-dark {
+    background-color: #121212 !important;
+}
+
+.navbar .user-profile {
+    height: 3.125em;
+    border-radius: 10vh;
+}
+
+.navbar .navbar-brand img {
+    height: 3.75em;
+}
+
+.sides {
+    height: calc(100vh - 100.59px);
+    display: flex;
+}
+
+.sides .left {
+    display: flex;
+    justify-content: flex-end;
+    padding: 13.125em 6.25em 0;
+    height: 100%;
+    width: 50%;
+    background-color: #00000040;
+    backdrop-filter: blur(7.5px);
+}
+
+.sides .left .content-top {
+    width: 25em;
+    text-align: end;
+    margin-bottom: 4.6875em;
+}
+
+.sides .left .content-title {
+    margin-bottom: 1.875em;
+}
+
+.sides .left .content-title h1 {
+    margin-bottom: 0.75em;
+}
+
+.sides .left .content-title p {
+    margin-bottom: 0;
+    padding-bottom: 1.875em;
+}
+
+.sides .left .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sides .right {
+    height: 100%;
+    width: 50%;
+    background-color: #ffffff40;
+    backdrop-filter: blur(7.5px);
+    padding: 13.125em 4.6875em 0;
+}
